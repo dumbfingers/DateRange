@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FB9B463156FBDE6002F8B32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB9B462156FBDE6002F8B32 /* UIKit.framework */; };
+		9FB9B465156FBDE6002F8B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB9B464156FBDE6002F8B32 /* Foundation.framework */; };
+		9FB9B467156FBDE6002F8B32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB9B466156FBDE6002F8B32 /* CoreGraphics.framework */; };
+		9FB9B46D156FBDE6002F8B32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9B46B156FBDE6002F8B32 /* InfoPlist.strings */; };
+		9FB9B46F156FBDE6002F8B32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9B46E156FBDE6002F8B32 /* main.m */; };
+		9FB9B473156FBDE6002F8B32 /* DateRangeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9B472156FBDE6002F8B32 /* DateRangeAppDelegate.m */; };
+		9FB9B476156FBDE6002F8B32 /* DateRangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9B475156FBDE6002F8B32 /* DateRangeViewController.m */; };
+		9FB9B479156FBDE6002F8B32 /* DateRangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9B477156FBDE6002F8B32 /* DateRangeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9FB9B45E156FBDE5002F8B32 /* DateRange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateRange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB9B462156FBDE6002F8B32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FB9B464156FBDE6002F8B32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FB9B466156FBDE6002F8B32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9FB9B46A156FBDE6002F8B32 /* DateRange-Info.plist */ = {isa = PBXFileReference; path = "DateRange-Info.plist"; sourceTree = "<group>"; };
+		9FB9B46C156FBDE6002F8B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FB9B46E156FBDE6002F8B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FB9B470156FBDE6002F8B32 /* DateRange-Prefix.pch */ = {isa = PBXFileReference; path = "DateRange-Prefix.pch"; sourceTree = "<group>"; };
+		9FB9B471156FBDE6002F8B32 /* DateRangeAppDelegate.h */ = {isa = PBXFileReference; path = DateRangeAppDelegate.h; sourceTree = "<group>"; };
+		9FB9B472156FBDE6002F8B32 /* DateRangeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateRangeAppDelegate.m; sourceTree = "<group>"; };
+		9FB9B474156FBDE6002F8B32 /* DateRangeViewController.h */ = {isa = PBXFileReference; path = DateRangeViewController.h; sourceTree = "<group>"; };
+		9FB9B475156FBDE6002F8B32 /* DateRangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateRangeViewController.m; sourceTree = "<group>"; };
+		9FB9B478156FBDE6002F8B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DateRangeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FB9B45B156FBDE5002F8B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB9B463156FBDE6002F8B32 /* UIKit.framework in Frameworks */,
+				9FB9B465156FBDE6002F8B32 /* Foundation.framework in Frameworks */,
+				9FB9B467156FBDE6002F8B32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FB9B453156FBDE5002F8B32 = {
+			isa = PBXGroup;
+			children = (
+				9FB9B468156FBDE6002F8B32 /* DateRange */,
+				9FB9B461156FBDE6002F8B32 /* Frameworks */,
+				9FB9B45F156FBDE5002F8B32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB9B45F156FBDE5002F8B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9B45E156FBDE5002F8B32 /* DateRange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB9B461156FBDE6002F8B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9B462156FBDE6002F8B32 /* UIKit.framework */,
+				9FB9B464156FBDE6002F8B32 /* Foundation.framework */,
+				9FB9B466156FBDE6002F8B32 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FB9B468156FBDE6002F8B32 /* DateRange */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9B471156FBDE6002F8B32 /* DateRangeAppDelegate.h */,
+				9FB9B472156FBDE6002F8B32 /* DateRangeAppDelegate.m */,
+				9FB9B474156FBDE6002F8B32 /* DateRangeViewController.h */,
+				9FB9B475156FBDE6002F8B32 /* DateRangeViewController.m */,
+				9FB9B477156FBDE6002F8B32 /* DateRangeViewController.xib */,
+				9FB9B469156FBDE6002F8B32 /* Supporting Files */,
+			);
+			path = DateRange;
+			sourceTree = "<group>";
+		};
+		9FB9B469156FBDE6002F8B32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9B46A156FBDE6002F8B32 /* DateRange-Info.plist */,
+				9FB9B46B156FBDE6002F8B32 /* InfoPlist.strings */,
+				9FB9B46E156FBDE6002F8B32 /* main.m */,
+				9FB9B470156FBDE6002F8B32 /* DateRange-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FB9B45D156FBDE5002F8B32 /* DateRange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB9B47C156FBDE6002F8B32 /* Build configuration list for PBXNativeTarget "DateRange" */;
+			buildPhases = (
+				9FB9B45A156FBDE5002F8B32 /* Sources */,
+				9FB9B45B156FBDE5002F8B32 /* Frameworks */,
+				9FB9B45C156FBDE5002F8B32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateRange;
+			productName = DateRange;
+			productReference = 9FB9B45E156FBDE5002F8B32 /* DateRange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB9B455156FBDE5002F8B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9FB9B458156FBDE5002F8B32 /* Build configuration list for PBXProject "DateRange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FB9B453156FBDE5002F8B32;
+			productRefGroup = 9FB9B45F156FBDE5002F8B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB9B45D156FBDE5002F8B32 /* DateRange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FB9B45C156FBDE5002F8B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB9B46D156FBDE6002F8B32 /* InfoPlist.strings in Resources */,
+				9FB9B479156FBDE6002F8B32 /* DateRangeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FB9B45A156FBDE5002F8B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB9B46F156FBDE6002F8B32 /* main.m in Sources */,
+				9FB9B473156FBDE6002F8B32 /* DateRangeAppDelegate.m in Sources */,
+				9FB9B476156FBDE6002F8B32 /* DateRangeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FB9B46B156FBDE6002F8B32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB9B46C156FBDE6002F8B32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FB9B477156FBDE6002F8B32 /* DateRangeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FB9B478156FBDE6002F8B32 /* en */,
+			);
+			name = DateRangeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FB9B47A156FBDE6002F8B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FB9B47B156FBDE6002F8B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FB9B47D156FBDE6002F8B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateRange/DateRange-Prefix.pch";
+				INFOPLIST_FILE = "DateRange/DateRange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FB9B47E156FBDE6002F8B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateRange/DateRange-Prefix.pch";
+				INFOPLIST_FILE = "DateRange/DateRange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB9B458156FBDE5002F8B32 /* Build configuration list for PBXProject "DateRange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB9B47A156FBDE6002F8B32 /* Debug */,
+				9FB9B47B156FBDE6002F8B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB9B47C156FBDE6002F8B32 /* Build configuration list for PBXNativeTarget "DateRange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB9B47D156FBDE6002F8B32 /* Debug */,
+				9FB9B47E156FBDE6002F8B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FB9B455156FBDE5002F8B32 /* Project object */;
+}
