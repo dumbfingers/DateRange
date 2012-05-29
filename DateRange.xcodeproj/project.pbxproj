@@ -22,13 +22,13 @@
 		9FB9B462156FBDE6002F8B32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9FB9B464156FBDE6002F8B32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9FB9B466156FBDE6002F8B32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9FB9B46A156FBDE6002F8B32 /* DateRange-Info.plist */ = {isa = PBXFileReference; path = "DateRange-Info.plist"; sourceTree = "<group>"; };
+		9FB9B46A156FBDE6002F8B32 /* DateRange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateRange-Info.plist"; sourceTree = "<group>"; };
 		9FB9B46C156FBDE6002F8B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FB9B46E156FBDE6002F8B32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9FB9B470156FBDE6002F8B32 /* DateRange-Prefix.pch */ = {isa = PBXFileReference; path = "DateRange-Prefix.pch"; sourceTree = "<group>"; };
-		9FB9B471156FBDE6002F8B32 /* DateRangeAppDelegate.h */ = {isa = PBXFileReference; path = DateRangeAppDelegate.h; sourceTree = "<group>"; };
+		9FB9B470156FBDE6002F8B32 /* DateRange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateRange-Prefix.pch"; sourceTree = "<group>"; };
+		9FB9B471156FBDE6002F8B32 /* DateRangeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateRangeAppDelegate.h; sourceTree = "<group>"; };
 		9FB9B472156FBDE6002F8B32 /* DateRangeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateRangeAppDelegate.m; sourceTree = "<group>"; };
-		9FB9B474156FBDE6002F8B32 /* DateRangeViewController.h */ = {isa = PBXFileReference; path = DateRangeViewController.h; sourceTree = "<group>"; };
+		9FB9B474156FBDE6002F8B32 /* DateRangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateRangeViewController.h; sourceTree = "<group>"; };
 		9FB9B475156FBDE6002F8B32 /* DateRangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateRangeViewController.m; sourceTree = "<group>"; };
 		9FB9B478156FBDE6002F8B32 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DateRangeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -274,6 +274,7 @@
 				9FB9B47E156FBDE6002F8B32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
